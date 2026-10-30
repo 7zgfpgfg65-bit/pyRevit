@@ -39,7 +39,7 @@ public class MigrationCanonicalizationTests
 
             string text = File.ReadAllText(path);
             Assert.Contains("\"", text);
-            Assert.DoesNotContain("'C:", text);
+            Assert.DoesNotContain("'C:", text, StringComparison.Ordinal);
 
             Assert.Equal(
                 new List<string> { @"C:\Tools\ext1", @"D:\ext2" },
@@ -83,7 +83,7 @@ public class MigrationCanonicalizationTests
             Assert.DoesNotContain("environment.clones", result.ResetKeys);
 
             string text = File.ReadAllText(path);
-            Assert.DoesNotContain("'dev'", text);
+            Assert.DoesNotContain("'dev'", text, StringComparison.Ordinal);
 
             Assert.Equal(
                 new Dictionary<string, string> { ["dev"] = @"C:\pyRevit", ["main"] = @"D:\clones\main" },

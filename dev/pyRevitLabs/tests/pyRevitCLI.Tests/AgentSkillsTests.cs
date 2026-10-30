@@ -35,7 +35,7 @@ public class AgentSkillsTests {
 
         foreach (var skill in skills)
             Assert.Contains(skill.Name, instructions);
-        Assert.DoesNotContain("{skills}", instructions);
+        Assert.DoesNotContain("{skills}", instructions, StringComparison.Ordinal);
         Assert.Contains("get_context", instructions);
     }
 
