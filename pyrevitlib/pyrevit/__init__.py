@@ -42,6 +42,7 @@ from pyrevit import compat
 _perfmark("pyrevit.__init__:after compat+clr+System")
 
 PYREVIT_ADDON_NAME = "pyRevit"
+PYREVIT_BRAND_NAME = "BIMForge"
 PYREVIT_CLI_NAME = "pyrevit.exe"
 
 # extract version from version file

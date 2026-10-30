@@ -11,6 +11,7 @@ namespace pyRevitLabs.Common {
         public const string PyRevitProgramDataPathOverrideEnvVar = "PYREVIT_PROGRAMDATA_PATH_OVERRIDE";
         // product
         public const string ProductName = "pyRevit";
+        public const string BrandName = "BIMForge";
 
         // urls
         public const string RootDomain = @"pyrevitlabs.io";

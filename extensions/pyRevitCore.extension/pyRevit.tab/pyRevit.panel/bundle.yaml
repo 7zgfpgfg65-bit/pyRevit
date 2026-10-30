@@ -1,12 +1,12 @@
 title:
-  en_us: pyRevit
-  ko: pyRevit
-  fr_fr: pyRevit
-  ru: pyRevit
-  chinese_s: pyRevit
-  es_es: pyRevit
-  de_de: pyRevit
-  pt_br: pyRevit
+  en_us: BIMForge
+  ko: BIMForge
+  fr_fr: BIMForge
+  ru: BIMForge
+  chinese_s: BIMForge
+  es_es: BIMForge
+  de_de: BIMForge
+  pt_br: BIMForge
 layout:
 - tools
 - Support pyRevit

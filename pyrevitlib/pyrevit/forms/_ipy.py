@@ -17,7 +17,7 @@ import threading
 import datetime
 import webbrowser
 
-from pyrevit import HOST_APP, EXEC_PARAMS, DOCS, BIN_DIR
+from pyrevit import HOST_APP, EXEC_PARAMS, DOCS, BIN_DIR, PYREVIT_BRAND_NAME
 from pyrevit import PyRevitCPythonNotSupported, PyRevitException
 from pyrevit.compat import IRONPY
 from pyrevit.compat import safe_strtype, get_elementid_value_func
@@ -742,7 +742,9 @@ class _WPFMixin(object):
     @property
     def pyrevit_version(self):
         """Active pyRevit formatted version string, e.g. '4.9-beta'."""
-        return "pyRevit {}".format(versionmgr.get_pyrevit_version().get_formatted())
+        return "{} {}".format(
+            PYREVIT_BRAND_NAME, versionmgr.get_pyrevit_version().get_formatted()
+        )
 
     def handle_url_click(self, sender, args):  # pylint: disable=unused-argument
         """XAML event handler: open a Hyperlink URL in the default browser.

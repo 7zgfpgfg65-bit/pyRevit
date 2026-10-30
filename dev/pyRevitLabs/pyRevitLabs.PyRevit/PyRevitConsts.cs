@@ -51,11 +51,11 @@ namespace pyRevitLabs.PyRevit {
         public const string DeployFromImageConfigsFilename = ".pyrevitargs";
 
         // consts for creating pyRevit addon manifest file
-        public const string AddinFileName = PyRevitLabsConsts.ProductName;
-        public const string AddinName = "PyRevitLoader";
-        public const string AddinId = "B39107C3-A1D7-47F4-A5A1-532DDF6EDB5D";
+        public const string AddinFileName = PyRevitLabsConsts.BrandName;
+        public const string AddinName = "BIMForgeLoader";
+        public const string AddinId = "DD50E934-3D86-4004-997A-9F2068495EC6";
         public const string AddinClassName = "PyRevitLoader.PyRevitLoaderApplication";
-        public const string VendorId = "eirannejad";
+        public const string VendorId = "BIMForge";
         public const string LegacyEngineDllName = "pyRevitLoader.dll";
 
         // install scope marker (all-users installer creates this under %ProgramData%\pyRevit\)

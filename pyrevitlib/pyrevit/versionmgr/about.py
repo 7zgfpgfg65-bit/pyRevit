@@ -31,7 +31,7 @@ def get_pyrevit_about():
         (PyRevitAbout): pyRevit project info tuple
     """
     return PyRevitAbout(
-        subtitle="python RAD Environment for Autodesk Revit®",
+        subtitle="BIM tools for Autodesk Revit®, built on pyRevit",
         madein="['pdx', 'hio', 'rno', 'sea']",
-        copyright="© 2014-2026 Ehsan Iran-Nejad",
+        copyright="BIMForge © 2026 · pyRevit © 2014-2026 Ehsan Iran-Nejad (GPL-3.0)",
     )

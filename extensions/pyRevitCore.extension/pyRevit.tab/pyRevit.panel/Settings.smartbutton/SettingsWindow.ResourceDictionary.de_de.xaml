@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <system:String x:Key="Title">pyRevit Einstellungen</system:String>
+    <system:String x:Key="Title">BIMForge Einstellungen</system:String>
     <system:String x:Key="CoreSettings.Title">Kern-Einstellungen</system:String>
     <system:String x:Key="CoreSettings.General">Allgemein</system:String>
     <system:String x:Key="CoreSettings.RocketMode">Rocket-Modus &#x1F680; (Neuladen erforderlich)</system:String>

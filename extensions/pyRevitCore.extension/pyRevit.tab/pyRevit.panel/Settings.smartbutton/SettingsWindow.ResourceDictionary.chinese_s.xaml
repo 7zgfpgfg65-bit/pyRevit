@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:system="clr-namespace:System;assembly=mscorlib">
 
-    <system:String x:Key="Title">pyRevit 设置</system:String>
+    <system:String x:Key="Title">BIMForge 设置</system:String>
     <system:String x:Key="CoreSettings.Title">核心设置</system:String>
     <system:String x:Key="CoreSettings.General">常规</system:String>
     <system:String x:Key="CoreSettings.RocketMode">火箭模式 &#x1F680; (需要重新加载)</system:String>
